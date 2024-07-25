@@ -139,8 +139,15 @@ body {
    justify-content: start;
 }
 
-.intro__icon-wrapper {
+.intro__icon-wrapper__left {
    margin-right: 30px;
+   width: 30px;
+   display: flex;
+   justify-content: center;
+}
+
+.intro__icon-wrapper__right {
+   margin-left: 30px;
    width: 30px;
    display: flex;
    justify-content: center;
